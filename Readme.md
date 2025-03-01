@@ -147,5 +147,6 @@ namespace CustomerService.Services
 
 ````
 ![Resim1](https://github.com/omerserfice/MicroServiceProject/blob/master/CustomerService/images/Screenshot_1.png)
+![Resim2](https://github.com/omerserfice/MicroServiceProject/blob/master/CustomerService/images/Screenshot_2.png)
 
 
