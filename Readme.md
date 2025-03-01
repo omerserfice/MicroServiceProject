@@ -125,12 +125,12 @@ namespace CustomerService.Services
                 var message = Encoding.UTF8.GetString(body);
                 var order = JsonSerializer.Deserialize<Order>(message, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
 
-                Console.WriteLine($"📥 Yeni Sipariş Alındı: {order?.Id}, Ürün ID: {order?.ProductId}, Müşteri ID: {order?.CustomerId}, Fiyat: {order?.TotalPrice} TL");
+                Console.WriteLine($" Yeni Sipariş Alındı: {order?.Id}, Ürün ID: {order?.ProductId}, Müşteri ID: {order?.CustomerId}, Fiyat: {order?.TotalPrice} TL");
             };
 
             channel.BasicConsume(queue: "orders", autoAck: true, consumer: consumer);
 
-            Console.WriteLine("🎧 RabbitMQ Dinleniyor...");
+            Console.WriteLine(" RabbitMQ Dinleniyor...");
             Console.ReadLine();
         }
     }
