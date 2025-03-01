@@ -146,6 +146,7 @@ namespace CustomerService.Services
 }
 
 ````
-![](C:\Users\Omer\source\repos\MicroServiceProject\CustomerService\Screenshot_1.png)
+![Resim1](https://github.com/omerserfice/MicroServiceProject/blob/master/CustomerService/images/Screenshot_1.png)
+![Resim2](https://github.com/omerserfice/MicroServiceProject/blob/master/CustomerService/images/Screenshot_2.png)
 
 
